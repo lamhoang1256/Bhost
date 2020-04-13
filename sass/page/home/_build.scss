@@ -1,0 +1,59 @@
+.build{
+    width:100%;
+    height:61.5rem;
+    text-align: center;
+    &__row1{
+        &--primary{
+            text-transform: uppercase;
+            color:$_333 !important;
+            font-family:OpenSans-SemiBold ;
+            font-size: 3rem;
+            margin: 0;
+            padding:11rem 0 0 0;    
+        }
+        &--description{
+            color:$_666 !important;
+            font-family:OpenSans-Regular;
+            font-size: 1.5rem;
+            line-height: 2.7rem;
+            margin:0;
+            padding:2.5rem 0 0 0;
+        }
+    }
+    &__row2{
+        margin:0;
+        padding-top:7.1rem;
+        &--step{
+            width:7rem;
+            height:7rem;
+            border:1px dashed $blue_pale;
+            border-radius: 50%;
+            margin: 0 auto;
+            line-height:7rem;
+            font-family: RobotoSlab-Regular;
+            font-size: 2.4rem;
+            color:$blue;
+        }
+        &--active{
+            background: url('../images/bg_color.png');
+            background-size: cover;
+            border:none;
+            color:$white;
+        } 
+        &--primary{
+            text-transform: uppercase;
+            color:$_333;
+            font-family:OpenSans-SemiBold ;
+            font-size: 2.4rem;
+            margin: 0;
+            padding:3rem 0 0 0;    
+        }
+        &--description{
+            color:$_666 !important;
+            font-family:OpenSans-Regular;
+            font-size: 1.5rem;
+            line-height: 2.7rem;
+            padding:2.5rem 0 0 0;
+        }
+    }   
+}

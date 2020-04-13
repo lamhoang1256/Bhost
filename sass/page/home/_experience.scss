@@ -1,0 +1,48 @@
+.experience{
+    line-height: 2.5rem;
+    .experience__row1{
+        &--primary{
+            margin: 0;
+            padding:12rem 0 0 0;
+            text-transform: uppercase;
+            color:$_333 !important;
+            font-family:OpenSans-SemiBold ;
+            font-size: 2.4rem;
+        }
+        &--description1{
+            color:$_666 !important;
+            font-family:OpenSans-Regular;
+            font-size: 1.5rem;
+            padding:2rem 0 0 0;
+            margin:0;
+        }
+        &--description2{
+            color:$_666 !important;
+            font-family:OpenSans-Regular;
+            font-size: 1.5rem;
+            padding:1.3rem 0 5rem 0;
+            margin:0;
+        }
+    }
+    .experience__row2,.experience__row3{
+        text-align: center;
+        padding:0 0 3rem 0;
+        &--title{
+            font-family:OpenSans-Bold ;
+            font-size: 1.6rem;
+            color:$_333;
+            text-transform: uppercase;
+        }
+        &--number{
+            font-family:OpenSans-SemiBold ;
+            font-size: 1.5rem;
+            color:$_666;
+        }
+    }
+    .experience__row3{
+        padding:0 0 12rem 0;
+    }
+    .experience__col{
+        padding:12rem 0 12rem 0;
+    }
+}

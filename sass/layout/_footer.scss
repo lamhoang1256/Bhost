@@ -1,0 +1,94 @@
+footer{
+    width:100%;
+    height:auto;
+    background: url('../images/footer_bg.png');
+    .footer__wrap{
+        padding:3.5rem 0 6.5rem 0;
+        border-bottom: 1px solid $footer_border;
+        .footer__row{
+            .logo{
+                padding:4.5rem 0 0 0;
+            }
+            .icon__box{
+                margin:3rem 0 0 0;
+                width:4rem;
+                height:4rem;
+                display: inline-block;
+                transition: .3s;
+                &:hover{
+                    .icon_footer{
+                        color:$green;
+                    }
+                }
+                .icon_footer{
+                    font-family:'Font Awesome 5 Free';
+                    font-weight:900;
+                    font-size: 2rem;
+                    line-height:4rem;
+                    display:block;
+                    margin:25% auto;
+                    color:$white;          
+                }
+            }
+            .icon__box:nth-child(1){
+                background-color:$facebook_bg;
+            }
+            .icon__box:nth-child(2){
+                background-color:$pinterest_bg;
+            }
+            .icon__box:nth-child(3){
+                background-color:$instagram_bg;
+            }
+            .icon__box:nth-child(4){
+                background-color:$twiter_bg;
+            }
+            .icon__box:nth-child(5){
+                background-color:$gg_plus_bg;
+            }
+            .footer__sub{
+                font-family:OpenSans-Regular ;
+                font-size:1.3rem;
+                color:$footer_sub;
+                line-height: 2.3rem;
+                margin:0;
+                padding:2rem 0 0 0;
+            }
+            a{
+                color:$footer_sub;
+                transition: 0.3s;
+            }   
+            a.active{
+                color:$blue !important;
+            }   
+            a:hover{
+                color:$green !important;
+                text-decoration: none;
+            }   
+            .footer__primary{
+                font-family:OpenSans-Regular ;
+                font-size:1.5rem;
+                color:$footer_primary;
+                line-height: 2.1rem;
+                margin:0;
+                padding:4.4rem 0 0 0;
+                text-transform: capitalize;
+            }
+        }
+    }
+    .footer__under{
+        .footer__sub{
+            font-family:OpenSans-Regular ;
+            font-size:1.3rem;
+            color:$footer_sub;
+            line-height: 8rem;
+            margin:0;
+            padding:0 2.5rem 0 0;
+        }
+        .footer__sub:last-child{
+            padding:0 0 0 0;
+        }
+        .footer__under--box{
+            height:8rem;
+        }
+    }
+}

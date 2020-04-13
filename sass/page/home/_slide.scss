@@ -1,0 +1,92 @@
+.slide{
+    width:100%;
+    min-height:83.2rem;
+    background:$white-pale;
+    &__row1{
+        padding:0 0 0 0;
+        text-align: center;
+        &--primary{
+            text-transform: uppercase;
+            color:$_333 !important;
+            font-family:OpenSans-SemiBold ;
+            font-size: 3rem;
+            margin: 0;
+            padding:11rem 0 0 0;    
+        }
+        &--description{
+            color:$_666 !important;
+            font-family:OpenSans-Regular;
+            font-size: 1.5rem;
+            line-height: 2.7rem;
+            margin:0;
+            padding:2.5rem 0 0 0;
+        }
+    }
+    &__row1{
+        padding:7.1rem 0 0 0;
+        margin:0;
+        &--primary{
+            text-transform: uppercase;
+            color:$_333;
+            font-family:OpenSans-SemiBold ;
+            font-size: 2.4rem;
+            margin: 0;
+            padding:3rem 0 0 0;    
+        }
+    }
+    &__row2{
+        margin:5.5rem 0 0 0;
+        &--sub{
+            color:$_666 !important;
+            font-family:OpenSans-Regular;
+            font-size: 1.5rem;
+            line-height: 2.7rem;
+            margin: 0;
+            padding:1rem 0 1rem 0;
+        }
+    }
+    &__row3{
+        .cloud{
+            position: relative;
+            &__digit{
+                position: absolute;
+                top:0%;
+                left:25%;
+                color:$white;
+                font-family:OpenSans-SemiBold ;
+                font-size:4rem;
+                padding:2.9rem 0 2.9rem 0;
+            }
+        }    
+    }
+    &__btn{
+        margin:4.5rem 0 0 0 !important;
+        color:$blue !important;
+        border:1px solid $blue !important;
+        background: none !important;
+    }
+    .carousel-control-next-icon {
+        background-image : url("../images/next.png") !important;
+        margin-right:-7rem ;
+        width:4rem !important;
+    }
+    .carousel-control-prev-icon {
+        background-image : url("../images/prev.png") !important;
+        margin-left:-7rem ; 
+        width:4rem !important;
+    }
+    .carousel-indicators{
+        bottom:14rem;
+    }
+    .carousel-indicators li{
+        cursor: pointer;
+        height: 1.5rem;
+        width: 1.5rem;
+        margin: 0 2px;
+        border:1px solid $blue;
+        display: inline-block;
+    }
+    .carousel-indicators .active {
+        background:$blue;
+    }
+}

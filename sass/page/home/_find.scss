@@ -1,0 +1,78 @@
+.find{
+    width:100%;
+    height: 46.6rem;
+    background: url('../images/find_bg.png');
+    color:$white;
+    text-align: center;
+    &__row{
+        &--primary{
+            text-transform: uppercase;
+            font-family:OpenSans-Bold ;
+            font-size: 3rem;
+            margin: 0;
+            padding:11.9rem 0 0 0;
+        }
+        &--sub{
+            text-transform: capitalize;
+            font-family:OpenSans-Regular ;
+            font-size: 1.6rem;
+            margin:0;
+            padding: 2.9rem 0 5rem 0;
+        }
+        .row__square{
+            font-family:OpenSans-Regular ;
+            &--cover{
+                margin:0 auto;
+                padding:3.4rem 0 0 0;
+                &--icon{
+                    display: inline-block;
+                    margin:0 auto;
+                    padding:0;
+                    width:1.3rem;
+                    height:1.3rem;
+                    border:1px solid $blue;
+                }
+            }   
+        }
+        .find__search{
+            position: relative;
+            width:100%;
+            border-radius: 3rem;
+            &--input{
+                width:100%;
+                height:6rem;
+                border: none;
+                border-radius: 3rem;
+                padding:0 0 0 3rem;
+            }
+            &--icon{
+                background: url('../images/bg_color.png');
+                background-size: cover;
+                width:13rem;
+                height:4.5rem;
+                position: absolute;
+                right:0;
+                top:0;
+                z-index: 2;
+                border: none;
+                border-radius: 2.5rem;
+                margin:0.8rem;
+                a{
+                    font-family:OpenSans-SemiBold ;
+                    font-size: 1.6rem;
+                    text-transform: uppercase;
+                    line-height: 4.5rem;
+                    color:$white;
+                    padding:0 !important;
+                    margin:0 !important;
+                }   
+            }
+            &--icon:hover{
+                a{
+                color:$green !important;
+                text-decoration: none;
+                }
+            }
+        }
+    }
+}
